@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+#list of my favorite movies.
+
 zootopia = media.Movie("Zootopia", 
 						"https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg",
 						"https://www.youtube.com/watch?v=g9lmhBYB11U")
@@ -20,5 +22,6 @@ apartment = media.Movie("The Apartment",
 						"https://upload.wikimedia.org/wikipedia/en/b/bb/Apartment_60.jpg",
 						"https://www.youtube.com/watch?v=3j9Q6w_3asA")
 
+#implementing open_movie_page
 movies = [zootopia,exmachina,gattaca,madmaxfr,shaunofthedead,apartment]
 fresh_tomatoes.open_movies_page(movies)
